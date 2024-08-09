@@ -10,6 +10,8 @@ body {
   background-color: #1b244a;
   display: flex;
   align-items: center;
+  justify-content: center;
+  height: 100vh;
 }
 
 .score {
@@ -46,7 +48,7 @@ body {
 }
 
 .container {
-  display: inline-flex;
+  display: flex;
   gap: 30px;
   border: 2px #9aabd8 solid;
   border-radius: 4px;
