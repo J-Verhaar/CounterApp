@@ -70,7 +70,7 @@ body {
   border-radius: 5px;
 }
 
-.new-game-btn {
+.reset-btn {
   background: none;
   border: 2px solid #9aabd8;
   border-top: none;
@@ -116,7 +116,7 @@ body {
   justify-content: space-between;
   margin-top: 20px;
 }
-.new-game-btn-container {
+.reset-btn-container {
   position: absolute;
   left: -1px;
   top: -1px;
