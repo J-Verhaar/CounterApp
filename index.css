@@ -59,7 +59,7 @@ body {
   display: flex;
   gap: 30px;
   border: 2px #9aabd8 solid;
-  border-radius: 4px;
+  border-radius: 5px;
   padding: 60px;
   align-items: center;
   position: relative;
@@ -68,23 +68,35 @@ body {
 
 .reset-btn-container {
   position: absolute;
-  left: -1px;
-  top: -1px;
+  left: -2px;
+  top: -2px;
 }
 
 .reset-btn {
   background: none;
   border: 2px solid #9aabd8;
-  border-top: none;
-  border-left: none;
-  border-bottom-right-radius: 5px;
+  border-radius: 5px;
   font-size: 18px;
   color: #9aabd8;
   width: 1fr;
+  transition: color 0.15s;
+  border-top-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+
+.reset-btn:hover {
+  border-color: #7988b3;
+  color: #7988b3;
+}
+
+.reset-btn:active {
+  border-color: #5e698a;
+  color: #5e698a;
 }
 
 .team-header {
   font-family: Verdana, Arial;
+  font-size: 2rem;
   font-weight: 700;
   color: #eeeeee;
   margin: 0px;
@@ -121,4 +133,16 @@ body {
   font-family: Timer;
   font-size: 18px;
   color: #9aabd8;
+  transition: color 0.15s;
+  transition: border 0.15s;
+}
+
+.add-score-btn:hover {
+  border-color: #7988b3;
+  color: #7988b3;
+}
+
+.add-score-btn:active {
+  border-color: #5e698a;
+  color: #5e698a;
 }
